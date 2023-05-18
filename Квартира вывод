@@ -1,5 +1,13 @@
+package ru.inno.course.oop;
+
+public class myProgram {
+    public static void main(String[] args) {
+ 
+ 
   Flat My = new Flat("Москва, Шаболовка 37", 2, 5, 3);
   System.out.println(My.address);
   System.out.println(My.entrance);
   System.out.println(My.floor);
   System.out.println(My.numberOfRooms);
+  }
+}
